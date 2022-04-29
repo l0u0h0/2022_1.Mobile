@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_contact.xml" value="0.19773712158203127" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.33057098388671874" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.34733886718749996" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/collection_demo.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/crime_category_drug.xml" value="0.3481392017309216" />
+        <entry key="app/src/main/res/layout/crime_category_gambling.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/crime_category_sexcrime.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/crime_category_voicefishing.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/crime_dictionary_screen.xml" value="0.4275810352270154" />
+        <entry key="app/src/main/res/layout/crime_screen.xml" value="0.3613990894262341" />
+        <entry key="app/src/main/res/layout/crime_search_screen.xml" value="0.4323478809301404" />
+        <entry key="app/src/main/res/layout/dictionary_search_screen.xml" value="0.3765220752660779" />
+        <entry key="app/src/main/res/layout/fragment_collection_object.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_demo_object.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_demo_tab.xml" value="0.21631944444444445" />
+        <entry key="app/src/main/res/layout/fragment_tab.xml" value="0.21631944444444445" />
+        <entry key="app/src/main/res/layout/fragment_tab1.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_tab2.xml" value="0.2267361111111111" />
+        <entry key="app/src/main/res/layout/fragment_tab3.xml" value="0.2267361111111111" />
+        <entry key="app/src/main/res/layout/fragment_tab4.xml" value="0.10616905248807089" />
+        <entry key="app/src/main/res/layout/past_main.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.174" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.174" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
