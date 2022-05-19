@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Bumineun">
         <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
             android:name=".Past_main"
             android:exported="false" />
         <activity

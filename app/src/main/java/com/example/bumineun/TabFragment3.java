@@ -23,7 +23,7 @@ public class TabFragment3 extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_tab3, container, false);
 
-        TextView text = (TextView) v.findViewById(R.id.textView35);
+        TextView text = (TextView) v.findViewById(R.id.link_text);
         text.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
