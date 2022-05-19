@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Bumineun">
         <activity
+            android:name=".Past_main"
+            android:exported="false" />
+        <activity
+            android:name=".Dictionary_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Crime_screen"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
