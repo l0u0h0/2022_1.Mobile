@@ -44,22 +44,7 @@
                 android:gravity="end"
                 android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/textView2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="bottom"
-                    android:layout_weight=".5"
-                    android:text="@string/username"
-                    android:textSize="20sp"/>
 
-                <TextView
-                    android:id="@+id/textView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight=".5"
-                    android:gravity="end"
-                    android:text="@string/황영합이당" />
             </LinearLayout>
 
             <LinearLayout
@@ -212,6 +197,7 @@
             android:layout_width="match_parent"
             android:layout_height="90dp"
             android:orientation="vertical"
+            android:padding="10dp"
             android:layout_marginTop="6dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
@@ -221,6 +207,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/tailImg"
+                android:elevation="10dp"
                 android:src="@drawable/img_5"/>
 
         </LinearLayout>
