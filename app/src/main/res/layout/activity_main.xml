@@ -77,12 +77,20 @@
             tools:layout_editor_absoluteX="1dp"
             tools:layout_editor_absoluteY="121dp">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="Today's"/>
+
             <com.google.android.material.tabs.TabLayout
                 android:id="@+id/tab_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
-                app:tabIndicatorColor="#000000"
+                app:tabIndicatorColor="#003333"
+                app:tabSelectedTextColor="#003333"
                 >
 
 

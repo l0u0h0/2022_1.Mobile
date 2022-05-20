@@ -29,9 +29,9 @@ public class MainActivity extends AppCompatActivity {
 
         new TabLayoutMediator(tabLayout, viewPager, (tab, position) -> {
             if (position == 0) {
-                tab.setText("범죄");
+                tab.setText("시간별");
             } else if (position == 1) {
-                tab.setText("사전");
+                tab.setText("단어별");
             } else {
                 tab.setText("통계");
             }
