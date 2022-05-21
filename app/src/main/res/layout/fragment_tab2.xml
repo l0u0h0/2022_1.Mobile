@@ -180,6 +180,13 @@
             android:textStyle="bold"
             android:textSize="18dp"
             android:text="더 많은 정보 확인" />
+        <Button
+            android:id="@+id/link_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:text="더 많은 정보 확인"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
 
     </LinearLayout>
 
