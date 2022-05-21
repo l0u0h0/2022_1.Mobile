@@ -4,7 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 import androidx.viewpager2.widget.ViewPager2;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
 
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
@@ -36,6 +40,15 @@ public class MainActivity extends AppCompatActivity {
                 tab.setText("통계");
             }
         }).attach();
+
+        ImageView search = (ImageView) findViewById(R.id.search_img);
+        search.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Search_main.class);
+                startActivity(intent);
+            }
+        });
     }
     @Override
     public void onBackPressed() {
