@@ -84,9 +84,21 @@
                 </androidx.appcompat.widget.SearchView>
 
                 <View
-                    android:id="@+id/view"
+                    android:id="@+id/view_crime"
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="40dp"/>
+
+                <View
+                    android:id="@+id/view_dict"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="40dp"/>
+
+                <View
+                    android:id="@+id/view_static"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
                     android:layout_marginTop="40dp"/>
 
             </LinearLayout>

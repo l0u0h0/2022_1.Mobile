@@ -171,16 +171,6 @@
             </TableRow>
 
         </TableLayout>
-        <TextView
-            android:id="@+id/link_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:gravity="center"
-            android:textStyle="bold"
-            android:textSize="18dp"
-            android:text="더 많은 정보 확인"
-            />
 
         <Button
             android:id="@+id/link_button"
