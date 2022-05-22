@@ -14,8 +14,9 @@ public class Search_empty extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_empty);
 
-        ImageView search = (ImageView) findViewById(R.id.back_img);
-        search.setOnClickListener(new View.OnClickListener() {
+        // Back Button
+        ImageView back = (ImageView) findViewById(R.id.back_img);
+        back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Search_empty.this, MainActivity.class);

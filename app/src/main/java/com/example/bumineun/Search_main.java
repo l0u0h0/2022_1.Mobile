@@ -14,8 +14,19 @@ public class Search_main extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_main);
 
+        // Search Button
         ImageView search = (ImageView) findViewById(R.id.back_img);
         search.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Search_main.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        // Back button
+        ImageView back = (ImageView) findViewById(R.id.back_img);
+        back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Search_main.this, MainActivity.class);
