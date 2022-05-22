@@ -1,5 +1,5 @@
 # 2022_1.Mobile
-## SNS_ANALYSIS
+## SNS-Analysis
 ### TeamProject
 - `Anroid Studio`
 - `BumInEun`
