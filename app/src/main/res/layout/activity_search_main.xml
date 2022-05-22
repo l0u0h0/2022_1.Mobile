@@ -72,14 +72,14 @@
                 <androidx.appcompat.widget.SearchView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="50dp"
                     android:layout_marginLeft="20dp"
+                    android:layout_marginTop="50dp"
                     android:layout_marginRight="20dp"
                     android:background="#FFFFFF"
                     android:hapticFeedbackEnabled="false"
-                    android:searchIcon="@drawable/search"
+                    app:defaultQueryHint="검색어를 입력해주세요."
                     app:iconifiedByDefault="false"
-                    app:queryHint="머구리" >
+                    app:queryHint="머구리">
 
                 </androidx.appcompat.widget.SearchView>
 
