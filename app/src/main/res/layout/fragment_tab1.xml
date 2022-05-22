@@ -35,7 +35,7 @@
                     android:layout_height="40dp"
                     android:layout_weight="6"
                     android:gravity="center|start"
-                    android:text="zldqkesp" />
+                    android:text="킹받네" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
@@ -65,7 +65,7 @@
                     android:layout_height="40dp"
                     android:layout_weight="6"
                     android:gravity="center|start"
-                    android:text="zldqkesp" />
+                    android:text="어쩔티비" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
@@ -95,7 +95,7 @@
                     android:layout_height="40dp"
                     android:layout_weight="6"
                     android:gravity="center|start"
-                    android:text="zldqkesp" />
+                    android:text="KG받아" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
@@ -125,7 +125,7 @@
                     android:layout_height="40dp"
                     android:layout_weight="6"
                     android:gravity="center|start"
-                    android:text="zldqkesp" />
+                    android:text="오점뭐" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
@@ -155,7 +155,7 @@
                     android:layout_height="40dp"
                     android:layout_weight="6"
                     android:gravity="center|start"
-                    android:text="zldqkesp" />
+                    android:text="여기가 아닌데" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"

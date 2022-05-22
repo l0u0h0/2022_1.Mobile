@@ -10,6 +10,7 @@
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.33057098388671874" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.4097579899488277" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/activity_search_empty.xml" value="0.34010416666666665" />
         <entry key="app/src/main/res/layout/activity_search_main.xml" value="0.3803624471028646" />
         <entry key="app/src/main/res/layout/collection_demo.xml" value="0.1" />
         <entry key="app/src/main/res/layout/crime_category_drug.xml" value="0.3481392017309216" />
@@ -26,7 +27,7 @@
         <entry key="app/src/main/res/layout/fragment_demo_tab.xml" value="0.21631944444444445" />
         <entry key="app/src/main/res/layout/fragment_tab.xml" value="0.21631944444444445" />
         <entry key="app/src/main/res/layout/fragment_tab1.xml" value="0.47461139896373056" />
-        <entry key="app/src/main/res/layout/fragment_tab2.xml" value="0.2267361111111111" />
+        <entry key="app/src/main/res/layout/fragment_tab2.xml" value="0.5496731228298611" />
         <entry key="app/src/main/res/layout/fragment_tab3.xml" value="0.437847866419295" />
         <entry key="app/src/main/res/layout/fragment_tab4.xml" value="0.10616905248807089" />
         <entry key="app/src/main/res/layout/past_main.xml" value="0.2776268115942029" />

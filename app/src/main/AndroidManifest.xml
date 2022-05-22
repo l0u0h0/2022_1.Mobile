@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Bumineun">
         <activity
+            android:name=".Search_empty"
+            android:exported="false" />
+        <activity
             android:name=".Search_main"
             android:exported="false" />
         <activity
