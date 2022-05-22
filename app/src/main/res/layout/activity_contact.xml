@@ -66,78 +66,63 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/layerbody"
+        android:id="@+id/layerbody2"
         android:layout_width="match_parent"
-        android:layout_height="600dp"
-        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
         app:layout_constraintTop_toBottomOf="@id/layerhead"
         tools:layout_editor_absoluteX="20dp">
 
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/crime_container1"
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="문의하기"
+            android:background="@drawable/border2"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            />
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:layout_marginLeft="10dp"
-            app:cardCornerRadius="5dp"
-            app:cardElevation="10dp">
+            android:text="제목"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="제목을 입력하세요."
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="내용"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-                <TextView
+                android:orientation="vertical" >
+                <EditText
                     android:layout_width="match_parent"
-                    android:layout_height="48dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp"
-                    android:gravity="center"
-                    android:text="컴일"
-                    android:textSize="30sp"
-                    android:textColor="@color/green"
-                    android:textStyle="bold" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="10dp"
-                    >
-
-                    <View
-                        android:id="@+id/divider3"
-                        android:layout_width="match_parent"
-                        android:layout_height="3dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
-                        android:background="?android:attr/listDivider" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:gravity="center"
-                        android:text="카테고리 - 도박"
-                        android:textSize="25sp" />
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="260dp"
-                        android:src="@drawable/camera" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="20dp"
-                        android:gravity="center"
-                        android:text="천장에 카메라를 달아놓고 기계를 통해\n귓속의 도청장치에 카드내용을 불러주는 행위."
-                        android:textSize="19sp" />
-                </LinearLayout>
+                    android:layout_height="200dp"
+                    android:hint="내용을 입력하세요."
+                    />
             </LinearLayout>
-        </androidx.cardview.widget.CardView>
+        </ScrollView>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

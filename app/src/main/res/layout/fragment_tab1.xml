@@ -6,7 +6,6 @@
     tools:context=".TabFragment1">
 
     <!-- TODO: Update blank fragment layout -->
-    <!-- 실시간 (1시간 이내) -->
     <LinearLayout
         android:id="@+id/tab_Item1"
         android:layout_width="match_parent"
@@ -36,7 +35,7 @@
                     android:layout_height="40dp"
                     android:layout_weight="6"
                     android:gravity="center|start"
-                    android:text="킹받네" />
+                    android:text="zldqkesp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
@@ -66,7 +65,7 @@
                     android:layout_height="40dp"
                     android:layout_weight="6"
                     android:gravity="center|start"
-                    android:text="어쩔티비" />
+                    android:text="zldqkesp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
@@ -78,7 +77,7 @@
                     android:layout_height="40dp"
                     android:layout_weight="2"
                     android:gravity="center|end"
-                    android:text="85,657" />
+                    android:text="125,983" />
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"
@@ -96,7 +95,7 @@
                     android:layout_height="40dp"
                     android:layout_weight="6"
                     android:gravity="center|start"
-                    android:text="KG받아" />
+                    android:text="zldqkesp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
@@ -108,7 +107,7 @@
                     android:layout_height="40dp"
                     android:layout_weight="2"
                     android:gravity="center|end"
-                    android:text="82,551" />
+                    android:text="125,983" />
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"
@@ -126,7 +125,7 @@
                     android:layout_height="40dp"
                     android:layout_weight="6"
                     android:gravity="center|start"
-                    android:text="오점뭐" />
+                    android:text="zldqkesp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
@@ -138,7 +137,7 @@
                     android:layout_height="40dp"
                     android:layout_weight="2"
                     android:gravity="center|end"
-                    android:text="32,558" />
+                    android:text="125,983" />
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"
@@ -156,7 +155,7 @@
                     android:layout_height="40dp"
                     android:layout_weight="6"
                     android:gravity="center|start"
-                    android:text="여기가 아닌데" />
+                    android:text="zldqkesp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
@@ -168,7 +167,7 @@
                     android:layout_height="40dp"
                     android:layout_weight="2"
                     android:gravity="center|end"
-                    android:text="28,525" />
+                    android:text="125,983" />
             </TableRow>
 
         </TableLayout>
