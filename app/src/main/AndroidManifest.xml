@@ -11,6 +11,7 @@
         android:theme="@style/Theme.Bumineun">
         <activity
             android:name=".Search_empty"
+            android:parentActivityName=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".Search_main"

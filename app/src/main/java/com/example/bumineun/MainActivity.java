@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }).attach();
 
-        // Search icon
+        // Search Button
         ImageView search = (ImageView) findViewById(R.id.search_img);
         search.setOnClickListener(new View.OnClickListener() {
             @Override
