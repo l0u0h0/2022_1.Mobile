@@ -22,7 +22,7 @@ public class TabFragment1 extends Fragment {
         link.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Crime_screen.class);
+                Intent intent = new Intent(getActivity(), Past_main.class);
                 startActivity(intent);
             }
         });
