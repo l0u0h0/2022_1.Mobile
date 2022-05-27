@@ -52,6 +52,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        // Link Button
+        Button link = (Button) findViewById(R.id.link_button);
+        link.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Crime_screen.class);
+                startActivity(intent);
+            }
+        });
     }
     @Override
     public void onBackPressed() {
