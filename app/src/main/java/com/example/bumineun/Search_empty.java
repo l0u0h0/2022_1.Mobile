@@ -9,7 +9,6 @@ import android.view.View;
 import android.widget.ImageView;
 
 public class Search_empty extends AppCompatActivity {
-    SearchView searchView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,11 +26,13 @@ public class Search_empty extends AppCompatActivity {
 
         // Search
         SearchView sv = (SearchView) findViewById(R.id.search_view);
-        sv.setOnSearchClickListener(new View.OnClickListener() {
+        sv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Search_empty.this, Search_main.class);
                 startActivity(intent);
+
+                finish();
             }
         });
     }
