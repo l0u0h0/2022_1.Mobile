@@ -1,6 +1,7 @@
 package com.example.bumineun;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -20,6 +21,36 @@ public class Search_main extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Search_main.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        // Crime
+        CardView crime = (CardView) findViewById(R.id.crime_container);
+        crime.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Search_main.this, Crime_search_screen.class);
+                startActivity(intent);
+            }
+        });
+
+        // Dictionary
+        CardView dict = (CardView) findViewById(R.id.dict_container);
+        dict.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Search_main.this, Dictionary_search_screen.class);
+                startActivity(intent);
+            }
+        });
+
+        // Static
+        CardView stat = (CardView) findViewById(R.id.static_container);
+        stat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Search_main.this, Past_search_screen.class);
                 startActivity(intent);
             }
         });
