@@ -1,6 +1,10 @@
 # 2022_1.Mobile
 ## SNS-Analysis
 ### TeamProject
+- [uengmin](https://github.com/uengmim "Git-Profile")
+- [Jeon-peng](https://github.com/Jeon-peng "Git-Profile")
+---
+### 프로젝트 개요
 - `Anroid Studio`
 - `BumInEun`
 - 2022.03 ~
