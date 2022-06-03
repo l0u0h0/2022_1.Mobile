@@ -99,7 +99,7 @@
                         android:layout_marginTop="10dp"
                         android:textStyle="bold"
                         android:textSize="18sp"
-                        android:text="Today's"/>
+                        android:text="@string/today"/>
 
                     <com.google.android.material.tabs.TabLayout
                         android:id="@+id/tab_layout"
@@ -138,14 +138,14 @@
                     android:layout_marginRight="20dp"
                     app:layout_constraintTop_toBottomOf="@id/layerbody1">
                     <TextView
-                        android:id="@+id/newscript"
+                        android:id="@+id/news"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginBottom="10dp"
                         android:textStyle="bold"
                         android:textSize="18sp"
                         android:gravity="bottom"
-                        android:text="범죄 관련 뉴스" />
+                        android:text="@string/newscript" />
                     <TableLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -216,8 +216,8 @@
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="10dp"
                         android:backgroundTint="#FFFFFF"
-                        android:text="범죄 관련 은어 확인"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+                        android:text="@string/crime_btn"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
 
                 </LinearLayout>
                 <LinearLayout
