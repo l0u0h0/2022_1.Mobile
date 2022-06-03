@@ -102,9 +102,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:gravity="center"
-                android:textStyle="bold"
-                android:textSize="24dp"
-                android:text="통계" />
+                android:text="통계"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="28dp"
+                android:textStyle="bold" />
 
             <View
                 android:id="@+id/divider4"
@@ -127,18 +128,22 @@
                         android:layout_weight="1"
                         android:textSize="16dp"
                         android:text="" />
+
                     <TextView
-                        android:gravity="center"
                         android:layout_weight="9.5"
+                        android:gravity="center"
                         android:padding="5dp"
-                        android:textSize="16dp"
-                        android:text="최근 100일" />
+                        android:text="최근 100일"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="16dp" />
+
                     <TextView
-                        android:gravity="center"
                         android:layout_weight="9.5"
+                        android:gravity="center"
                         android:padding="5dp"
-                        android:textSize="16dp"
-                        android:text="최근 200일" />
+                        android:text="최근 200일"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="16dp" />
                 </TableRow>
 
                 <TableRow
