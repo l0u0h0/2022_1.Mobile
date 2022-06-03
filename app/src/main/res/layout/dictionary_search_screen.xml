@@ -216,7 +216,7 @@
                     android:layout_width="280dp"
                     android:layout_height="wrap_content"
                     android:hint="단어의 뜻을 입력하세요."
-                    android:textSize="20sp" />
+                    android:textSize="15sp" />
 
                 <Button
                     android:layout_width="match_parent"
