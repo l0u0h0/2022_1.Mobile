@@ -135,7 +135,7 @@
                         android:layout_marginBottom="20dp"
                         android:gravity="center"
                         android:text="천장에 카메라를 달아놓고 기계를 통해\n귓속의 도청장치에 카드내용을 불러주는 행위."
-                        android:textSize="19sp" />
+                        android:textSize="18sp" />
                 </LinearLayout>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
