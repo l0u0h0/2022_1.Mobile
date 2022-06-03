@@ -107,6 +107,7 @@
                         android:layout_height="wrap_content"
                         app:tabIndicatorColor="#003333"
                         app:tabSelectedTextColor="#003333"
+                        app:tabTextAppearance="@style/TextAppearance.AppCompat.Body1"
                         >
 
 
@@ -212,6 +213,8 @@
                         android:id="@+id/link_button"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
                         android:backgroundTint="#FFFFFF"
                         android:text="범죄 관련 은어 확인"
                         android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
