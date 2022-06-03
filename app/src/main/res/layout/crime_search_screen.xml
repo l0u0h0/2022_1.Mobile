@@ -71,8 +71,8 @@
         android:layout_height="600dp"
         android:layout_marginTop="30dp"
         android:orientation="vertical"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
         app:layout_constraintTop_toBottomOf="@id/layerhead"
         tools:layout_editor_absoluteX="20dp">
 
@@ -83,6 +83,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
             android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             app:cardCornerRadius="5dp"
             app:cardElevation="10dp">
             <LinearLayout
@@ -134,7 +135,7 @@
                         android:layout_marginBottom="20dp"
                         android:gravity="center"
                         android:text="천장에 카메라를 달아놓고 기계를 통해\n귓속의 도청장치에 카드내용을 불러주는 행위."
-                        android:textSize="19sp" />
+                        android:textSize="18sp" />
                 </LinearLayout>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
