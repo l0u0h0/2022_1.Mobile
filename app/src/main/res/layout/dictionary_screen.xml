@@ -74,14 +74,23 @@
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
+        android:gravity="center"
         app:layout_constraintTop_toBottomOf="@id/layerhead">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="단어 사전"
+            android:textStyle="bold"
+            android:textColor="@color/green"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
         <androidx.cardview.widget.CardView
             android:id="@+id/crime_container1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
             app:cardCornerRadius="5dp"
             app:cardElevation="10dp">
             <LinearLayout
