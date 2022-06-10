@@ -100,8 +100,14 @@
                     android:textStyle="bold" />
 
 
+                <View
+                    android:id="@+id/divider5"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="10dp"
+                    android:background="?android:attr/listDivider" />
 
-                    <TableLayout
+                <TableLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_margin="30dp"
@@ -129,7 +135,7 @@
                                 android:layout_width="17dp"
                                 android:layout_height="25dp"
                                 android:layout_marginBottom="2dp"
-                                android:background="@drawable/good" />
+                                android:background="@drawable/good_active" />
 
                         </TableRow>
 
